@@ -1,6 +1,16 @@
+################################################################################
 #
-# Created by https://www.toptal.com/developers/gitignore/api/c++,python,jupyternotebooks,visualstudiocode,cmake,latex
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,python,jupyternotebooks,visualstudiocode,cmake,latex
+# manually added{
+#
+################################################################################
+*.dat
+################################################################################
+#
+# manually added}
+#
+################################################################################
+# Created by https://www.toptal.com/developers/gitignore/api/c++,python,jupyternotebooks,visualstudiocode,latex
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,python,jupyternotebooks,visualstudiocode,latex
 
 ### C++ ###
 # Prerequisites
@@ -35,23 +45,6 @@
 *.exe
 *.out
 *.app
-
-### CMake ###
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-
-### CMake Patch ###
-# External projects
-*-prefix/
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -561,4 +554,4 @@ pyrightconfig.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/c++,python,jupyternotebooks,visualstudiocode,cmake,latex
+# End of https://www.toptal.com/developers/gitignore/api/c++,python,jupyternotebooks,visualstudiocode,latex
